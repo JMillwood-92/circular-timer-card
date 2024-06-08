@@ -1,6 +1,10 @@
-import { html, svg, css, LitElement } from "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js";
-import { repeat } from "https://cdn.jsdelivr.net/gh/lit/dist@3.0.0/all/lit-all.min.js";
-import * as d3 from "https://cdn.skypack.dev/d3@7";
+// import { html, svg, css, LitElement } from "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js";
+// import { repeat } from "https://cdn.jsdelivr.net/gh/lit/dist@3.0.0/all/lit-all.min.js";
+// import * as d3 from "https://cdn.skypack.dev/d3@7";
+
+import { html, svg, css, LitElement } from "http://10.0.2.3/imports/lit-core.min.js";
+import { repeat } from "http://10.0.2.3/imports/lit-all.min.js";
+import * as d3 from "http://10.0.2.3/imports/d3.v7.min.js";
 
 class CircularTimerCard extends LitElement {
 
